@@ -1,0 +1,154 @@
+@media (min-width: 1000px) {
+  .modal-dialog {
+    width: 1000px;
+    margin: 25px auto;
+    background-color: #635959;
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(17, 14, 14, 0.897);
+            box-shadow: 0 5px 15px rgba(22, 5, 5, 0.904);
+    }
+
+  .modal-sm {
+    width: 900px;
+  }
+}
+
+.modal-title{
+   justify-content: center;
+   text-align: center;
+   color: #fff;
+   margin-left: 100px;
+   text-decoration-style: double;
+   font-size: 40px;
+
+}
+
+.close{
+  background-color: #f30b51;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 2px;
+  color: white;
+  font-size: 20px;
+}
+
+.container{
+  position: relative;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.container .card{
+    max-width: 300px;
+    height: 250px;
+    position: relative;
+    background: #272727;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+    margin-top: 150px;
+    
+}
+
+.container .card .content{
+  color: white;
+  text-align: center;
+}
+
+.button{
+  position: relative;
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 145px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 16px;
+  outline-width: 0px;
+  outline: hidden;
+}
+
+.button:after {
+  content: "";
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.modal-footer{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.button1{
+  position: relative;
+  background: linear-gradient(90deg, #13a52b, #4de459);
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 145px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 16px;
+  outline-width: 0px;
+  outline: hidden;
+}
+
+.button1:after {
+  content: "";
+  background: linear-gradient(90deg, #13a52b, #4de459);
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button1:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}

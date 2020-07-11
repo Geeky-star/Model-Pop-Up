@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel = "stylesheet" type="text/css" href="card.css">
+   
+</head>
+  <body> 
+    <script>
+      $(document).ready(function(){
+          $("MyModel").modal('show');
+      });
+  </script>
+  
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Topics you Might be Interested In!!</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="card">
+            <div class="imgBx">
+                <img src= "flutter.jpg">
+                </div>
+                 <div class="content">
+                     <h2>Flutter</h2>
+                     <button id = "1" class="button" onclick="replaceButtonText('1', 'Followed')">Follow</button>
+                    </div>
+            </div>
+            <div class="card">
+              <div class="imgBx">
+                  <img src= "photography.jpg">
+                  </div>
+                   <div class="content">
+                       <h2>Photography</h2>
+                       <button id = "3" class="button" onclick="replaceButtonText('3', 'Followed')">Follow</button>
+ 
+                      </div>
+              </div>
+              <div class="card">
+                <div class="imgBx">
+                    <img src= "fashion.jpg">
+                    </div>
+                     <div class="content">
+                         <h2>Fashion</h2>
+                         <button id = "4" class="button" onclick="replaceButtonText('4', 'Followed')">Follow</button>
+
+                        </div>
+                </div><br><br>
+            
+                <div class="card">
+                  <div class="imgBx">
+                      <img src= "coding.jpg">
+                      </div>
+                       <div class="content">
+                           <h2>Coding</h2>
+                           <button id = "5" class="button" onclick="replaceButtonText('5', 'Followed')">Follow</button>
+
+                          </div>
+                  </div>
+            
+                  <div class="card">
+                    <div class="imgBx">
+                        <img src= "happy.jpg">
+                        </div>
+                         <div class="content">
+                             <h2>Reading</h2>
+                             <button id = "6" class="button" onclick="replaceButtonText('6', 'Followed')">Follow</button>
+                            </div>
+                    </div>
+            
+                    <div class="card">
+                      <div class="imgBx">
+                          <img src= "javascript.png">
+                          </div>
+                        <div class="content">
+                               <h2>Javascript</h2>
+                               <button id = "7" class="button" onclick="replaceButtonText('7', 'Followed')">Follow</button>
+ 
+                              </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="imgBx">
+                            <img src= "music.jpg" height="180px" width="300px">
+                            </div>
+                             <div class="content">
+                                 <h2>Music</h2>
+                                 <button id = "8" class="button" onclick="replaceButtonText('8', 'Followed')">Follow</button>
+
+                                </div>
+                        </div>
+                        <div class="card">
+                          <div class="imgBx">
+                              <img src= "python.jpg">
+                              </div>
+                               <div class="content">
+                                   <h2>Python</h2>
+                                   <button id = "9" class="button" onclick="replaceButtonText('9', 'Followed')">Follow</button>
+
+                                  </div>
+                          </div>
+                          <div class="card">
+                            <div class="imgBx">
+                                <img src= "react.jpg">
+                                </div>
+                                 <div class="content">
+                                     <h2>React</h2>
+                                     <button id = "10" class="button" onclick="replaceButtonText('10', 'Followed')">Follow</button>
+
+                                    </div>
+                            </div>
+                            <div class="card">
+                              <div class="imgBx">
+                                  <img src= "digitalLearning.jpg">
+                                  </div>
+                                   <div class="content">
+                                       <h2>Digital Learning</h2>
+                                       <button id = "11" class="button" onclick="replaceButtonText('11', 'Followed')">Follow</button>
+
+                                      </div>
+                              </div>
+                              <div class="card">
+                                <div class="imgBx">
+                                    <img src= "game.jpg">
+                                    </div>
+                                     <div class="content">
+                                         <h2>Game Development</h2>
+                                         <button id = "12" class="button" onclick="replaceButtonText('12', 'Followed')">Follow</button>
+                                        </div>
+                                </div>
+                                <div class="card">
+                                  <div class="imgBx">
+                                      <img src= "dance.jpg">
+                                      </div>
+                                       <div class="content">
+                                           <h2>Dance</h2>
+                                           <button id = "13" class="button" onclick="replaceButtonText('13', 'Followed')">Follow</button>
+                                        </div>
+                                  </div>
+                                  <div class="card">
+                                    <div class="imgBx">
+                                        <img src= "paint.jpg">
+                                        </div>
+                                         <div class="content">
+                                             <h2>Painting</h2>
+                                             <button id = "14" class="button" onclick="replaceButtonText('14', 'Followed')">Follow</button>
+                                          </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="imgBx">
+                                          <img src= "entertain.jpg">
+                                          </div>
+                                           <div class="content">
+                                               <h2>Entertainment</h2>
+                                               <button id = "15" class="button" onclick="replaceButtonText('15', 'Followed')">Follow</button>
+                                            </div>
+                                          </div>
+                                      
+                                    <div class="card">
+                                      <div class="imgBx">
+                                          <img src= "politics.jpg">
+                                          </div>
+                                           <div class="content">
+                                               <h2>Politics</h2>
+                                               <button id = "15" class="button" onclick="replaceButtonText('15', 'Followed')">Follow</button>
+                         
+                                              </div>
+                                      </div>
+                                      
+                                    <div class="card">
+                                      <div class="imgBx">
+                                          <img src= "travel.jpg">
+                                          </div>
+                                           <div class="content">
+                                               <h2>Travel</h2>
+                                               <button id = "15" class="button" onclick="replaceButtonText('15', 'Followed')">Follow</button>
+                         
+                                              </div>
+                                      </div>
+                                      <div class="card">
+                                        <div class="imgBx">
+                                            <img src= "bitcoin.jpg">
+                                            </div>
+                                             <div class="content">
+                                                 <h2>Bitcoin</h2>
+                                                 <button id = "16" class="button" onclick="replaceButtonText('16', 'Followed')">Follow</button>
+                           
+                                                </div>
+                                        </div>
+                                        <div class="card">
+                                          <div class="imgBx">
+                                              <img src= "acting.jpg">
+                                              </div>
+                                               <div class="content">
+                                                   <h2>Acting</h2>
+                                                   <button id = "17" class="button" onclick="replaceButtonText('17', 'Followed')">Follow</button>
+                             
+                                                  </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="imgBx">
+                                                <img src= "yoga.jpg">
+                                                </div>
+                                                 <div class="content">
+                                                     <h2>Yoga</h2>
+                                                     <button id = "18" class="button" onclick="replaceButtonText('18', 'Followed')">Follow</button>
+                               
+                                                    </div>
+                                            </div>
+                                            <div class="card">
+                                              <div class="imgBx">
+                                                  <img src= "health.jpg" width="250px">
+                                                  </div>
+                                                   <div class="content">
+                                                       <h2>Health&Nutrition</h2>
+                                                       <button id = "19" class="button" onclick="replaceButtonText('19', 'Followed')">Follow</button>
+                                 
+                                                      </div>
+                                              </div>
+                                              <div class="card">
+                                                <div class="imgBx">
+                                                    <img src= "interior.jpg">
+                                                    </div>
+                                                     <div class="content">
+                                                         <h2>Interior Designing</h2>
+                                                         <button id = "20" class="button" onclick="replaceButtonText('20', 'Followed')">Follow</button>
+                                   
+                                                        </div>
+                                                </div>
+                                                <div class="card">
+                                                  <div class="imgBx">
+                                                      <img src= "startup.jpg">
+                                                      </div>
+                                                       <div class="content">
+                                                           <h2>StartUp</h2>
+                                                           <button id = "21" class="button" onclick="replaceButtonText('21', 'Followed')">Follow</button>
+                                     
+                                                          </div>
+                                                  </div>
+                                                  <div class="card">
+                                                    <div class="imgBx">
+                                                        <img src= "poetry.jpg" width="250px">
+                                                        </div>
+                                                         <div class="content">
+                                                             <h2>Poetry</h2>
+                                                             <button id = "22" class="button" onclick="replaceButtonText('22', 'Followed')">Follow</button>
+                                       
+                                                            </div>
+                                                    </div>
+                                  </div>
+                               </div>
+                            <br>
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+            <div class="modal-footer">
+                 <button class ="button1" data-dismiss="modal">Close</button>
+         </div>
+    </div>
+ </div>
+</div>
+<script>
+  function replaceButtonText(buttonId, text)
+{
+  if (document.getElementById)
+  {
+    var button=document.getElementById(buttonId);
+    if (button)
+    {
+      if (button.childNodes[0])
+      {
+        button.childNodes[0].nodeValue=text;
+      }
+      else if (button.value)
+      {
+        button.value=text;
+      }
+      else //if (button.innerHTML)
+      {
+        button.innerHTML=text;
+      }
+    }
+  }
+}
+  </script>
+</body>
+</html>
